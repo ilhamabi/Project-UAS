@@ -1,0 +1,70 @@
+hr {
+    border: none;
+    height: 12px;
+    background-color: #AAAAAA;
+}
+
+.header hr {
+    border: none;
+    height: 3px;
+    width: 50%;
+    background-color: #AAAAAA;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:not(:first-child){
+    margin-top: 20px; /* adjust the value to your liking */
+  }
+
+li a {
+    display: flex;
+    align-items: center;
+}
+
+.fixed-icon {
+    margin-left: auto;
+}
+
+.header-table th {
+    background-color: #cecece;
+}
+ 
+.data td:not(.nama), .data th {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 50% !important;
+}
+
+.input-group input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    max-width: 50% !important;
+}
+
+label {
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+
+/* button {
+    background-color: #D9D9D9 !important;
+} */
+
+.input-group button {
+    background: transparent !important; /* Blue background */
+    color: black; /* White text */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .input-group .btn:hover {
+    background-color: RoyalBlue;
+  }

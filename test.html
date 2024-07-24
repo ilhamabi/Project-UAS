@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .container {
+  display: flex;
+  align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* button {
+  margin-left: 10px;
+  /* button styles go here */
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <form>
+            <form action="#">
+                <label for="kehadiran">Kehadiran</label>
+                <input type="text" name="kehadiran" id="kehadiran">
+                <label for="tugas1">Tugas 1</label>
+                <input type="text" name="tugas1" id="tugas1">
+                <label for="tugas2">Tugas 2</label>
+                <input type="text" name="tugas2" id="tugas2">
+                <label for="tugas3">Tugas 3</label>
+                <input type="text" name="tugas3" id="tugas3">
+                <label for="tugas4">Tugas 4</label>
+                <input type="text" name="tugas4" id="tugas4">
+                <label for="responsi">Responsi</label>
+                <input type="text" name="responsi" id="responsi">
+                <label for="uts">UTS</label>
+                <input type="text" name="uts" id="uts">
+                <label for="uas">UAS</label>
+                <input type="text" name="uas" id="uas">
+                 
+                <div class="d-flex mt-3">
+                 <button type="button" class="btn ms-auto">Submit</button>
+                </div>
+        </form>
+        <button>Submit</button>
+      </div> -->
+      <form id="myForm">
+        <div id="inputContainer">
+          <input type="text" id="inputField" />
+        </div>
+        <button id="duplicateButton">Duplicate</button>
+      </form>
+
+    <script>
+const inputContainer = document.getElementById('inputContainer');
+const duplicateButton = document.getElementById('duplicateButton');
+
+duplicateButton.addEventListener('click', () => {
+  const inputField = inputContainer.children[0];
+  const newInputField = inputField.cloneNode(true);
+  inputContainer.appendChild(newInputField);
+});
+    </script>
+</form>
+</body>
+</html>

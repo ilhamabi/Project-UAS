@@ -1,0 +1,32 @@
+hr {
+    border: none;
+    height: 12px;
+    background-color: #AAAAAA;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:not(:first-child){
+    margin-top: 20px; /* adjust the value to your liking */
+  }
+
+li a {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.fixed-icon {
+    margin-left: auto;
+}
+
+.header-table th {
+    background-color: #cecece;
+}
+ 
+.data td:not(.nama), .data th {
+    text-align: center;
+}
